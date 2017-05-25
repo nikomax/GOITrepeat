@@ -1,0 +1,59 @@
+*{
+    background: #b8dff6;
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+}
+
+.time{
+    font-family: 'digital_play_stregular';
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#mseconds {
+    width: 121px;
+}
+
+#seconds, #minutes, #hours {
+    width: 81px;
+}
+
+button {
+    -moz-border-radius: 50px;
+    -moz-box-shadow: #6E7849 0px 0px 13px;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-border-radius: 50px;
+    -webkit-box-shadow: #6E7849 0 0 10px;
+    -webkit-transition: all 0.5s ease;
+    background-color: #2e332e;
+    background-image: -moz-radial-gradient(center 45deg, circle contain, #effac7, #2e332e);
+    background-image: -ms-radial-gradient(center 45deg, circle contain, #effac7, #2e332e);
+    background-image: -webkit-radial-gradient(center 45deg, circle contain, #effac7, #2e332e);
+    background-image: radial-gradient(center 45deg, circle contain, #effac7, #2e332e);
+    border-radius: 50px;
+    border: 5px solid #999999;
+    box-shadow: #6E7849 0px 0px 13px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 2em;
+    margin: auto;
+    padding: 20px;
+    text-decoration: none;
+    text-shadow: #000000 5px 5px 15px;
+    transition: all 0.5s ease;
+    outline: none;
+}
+
+button:hover {
+    padding: 19px;
+}
+
+.buttons{
+    display: block;
+}

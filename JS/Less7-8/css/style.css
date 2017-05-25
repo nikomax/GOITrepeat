@@ -1,0 +1,36 @@
+.wrapper {
+    width: 500px;
+    border: solid 1px #999999;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    text-align: center;
+    display: inline-block;
+    background-color: #666666;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+
+.tabs {
+    background-color: #999999;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.tab-text {
+    display: none;
+    background-color: white;
+}
+
+.first-tab {
+    display: block;
+}
